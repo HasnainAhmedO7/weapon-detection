@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO("weights/best.pt")
 
 # Path to the image file
-image_path = "assets/images/women with gun.jpg"
+image_path = "assets/images/gun.jpeg"
 
 # Read the image
 image = cv2.imread(image_path)
